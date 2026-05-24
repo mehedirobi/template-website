@@ -1,178 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template Website</title>
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
 
-    <!-- Google font -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- SEO -->
+  <meta
+    name="description"
+    content="Modern dark UI template for agencies and startups."
+  />
 
-    <!-- Font awesome -->
-     <script src="https://kit.fontawesome.com/9755f20936.js" crossorigin="anonymous"></script>
+  <title>DarkUI Agency</title>
 
-     <!-- CSS -->
-     <link rel="stylesheet" href="Styles/styles.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <script
+    src="https://kit.fontawesome.com/9755f20936.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css" />
 </head>
-<body class="raleway-uniquifier">
-    <header class="header">
 
-        <!-- Navbar -->
-        <nav>
-            <h3 class="nav-logo">LOGO</h3>
-            <button class="btn-nav">Sign Up</button>
-        </nav>
-        <div class="banner-content">
-            <h2 class="banner-title">Cool Dark UI Template for <br> Webflow Agencies!</h2>
-            <button class="btn-banner">Stay Focused</button>
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="header">
+
+    <!-- Navbar -->
+    <nav class="navbar container">
+
+      <a href="#" class="logo">
+        LOGO
+      </a>
+
+      <button class="btn btn-primary">
+        Sign Up
+      </button>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero container">
+
+      <div class="hero-content">
+
+        <h1 class="hero-title">
+          Cool Dark UI Template
+          for Webflow Agencies
+        </h1>
+
+        <p class="hero-description">
+          Build modern digital experiences with
+          elegant UI components and clean layouts.
+        </p>
+
+        <button class="btn btn-primary">
+          Stay Focused
+        </button>
+
+      </div>
+
+    </section>
+
+  </header>
+
+  <!-- ================= MAIN ================= -->
+
+  <main>
+
+    <!-- Action Section -->
+
+    <section class="action-section container">
+
+      <div class="action-content">
+
+        <h2 class="section-title">
+          See It in Action
+        </h2>
+
+        <p class="section-description">
+          Explore the live preview and imagine your
+          brand in this bold new look.
+        </p>
+
+        <button class="btn btn-secondary">
+          Launch Live Preview
+        </button>
+
+      </div>
+
+      <div class="action-image-wrapper">
+
+        <img
+          src="Assets/wc-mini.png"
+          alt="Website preview"
+          class="action-image"
+        />
+
+      </div>
+
+    </section>
+
+    <!-- Stats Section -->
+
+    <section class="stats-section">
+
+      <div class="container">
+
+        <h2 class="section-title center">
+          Joined Thousands of Productive Users
+        </h2>
+
+        <div class="stats-grid">
+
+          <article class="stat-card">
+            <h3>50K+</h3>
+            <p>Active Users</p>
+          </article>
+
+          <article class="stat-card">
+            <h3>2M+</h3>
+            <p>Focus Sessions</p>
+          </article>
+
+          <article class="stat-card">
+            <h3>95%</h3>
+            <p>Satisfaction Rate</p>
+          </article>
+
         </div>
-    </header>
 
-    <main>
+      </div>
 
-        <!-- Action section -->
-        <section class="action-section">
-            <div class="action-bar">
-                <h4 class="action-title">See It in Action</h4>
-                <p class="action-description">Explore the live preview and imagine your <br> brand in this bold new look.</p>
-                <button class="btn-action">Launch Live Preview</button>
-            </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="testimonial-section container">
+
+      <h2 class="section-title center">
+        What Our Users Say
+      </h2>
+
+      <div class="testimonial-grid">
+
+        <!-- Testimonial Card -->
+
+        <article class="testimonial-card">
+
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <h3>
+            Loved by Designers
+          </h3>
+
+          <p>
+            Great product! Quality is top-notch
+            and worth the price.
+          </p>
+
+          <div class="reviewer">
+
+            <img
+              src="Assets/avatar.png"
+              alt="Anika profile"
+              class="reviewer-image"
+            />
+
             <div>
-                <img class="action-img" src="Assets/wc-mini.png" alt="">
+              <h4>Anika</h4>
+              <span>11 July 2025</span>
             </div>
-            </section>
 
-            <!-- Productive section -->
-            <section class="productive-section">
-                <div class="productive-container">
-                    <h3 class="productive-title">Joined Thousands of Productive Users</h3>
-                    <div class="productive-value-container">
-                        <div>
-                        <h2 class="productive-value">50K</h2>
-                        <p class="productive-para">Active Users</p>
-                    </div>
-                    <div>
-                        <h2 class="productive-value">2M+</h2>
-                        <p class="productive-para">Focus Sessions</p>
-                    </div>
-                    <div>
-                        <h2 class="productive-value">95%</h2>
-                        <p class="productive-para">Satisfaction Rate</p>
-                    </div>
-                    </div>
-                </div>
-            </section>
+          </div>
 
-            <!-- Users feedback section -->
-            <section class="user-feedback-section">
-                <h2 class="feedback-title">What our users say</h2>
-                <div class="full">
-                    <div class="review-container">
-                    <div class="icon">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h3 class="feedback-h3">Loved by Designers</h3>
-                    <p class="feedback-para">Great product! Quality is top-notch and worth the price.</p>
-                <div class="img-name">
-                    <div>
-                    <img class="image" src="Assets/avatar.png" alt="">
-                </div>
-                <div class="name-date">
-                    <p class="review-name">Anika</p>
-                    <p class="date">Date:11/07/2025</p>
-                </div>
-                </div>
-                </div>
+        </article>
 
-                <div class="review-container">
-                    <div class="icon">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h3 class="feedback-h3">Loved by Designers</h3>
-                    <p class="feedback-para">Very useful and easy to use. And Totally satisfied!</p>
-                <div class="img-name">
-                    <div>
-                    <img class="image" src="Assets/avatar.png" alt="">
-                </div>
-                <div class="name-date">
-                    <p class="review-name">Jui</p>
-                    <p class="date">Date:02/05/2025</p>
-                </div>
-                </div>
-                </div>
+        <!-- Testimonial Card -->
 
-                <div class="review-container">
-                    <div class="icon">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h3 class="feedback-h3">Loved by Designers</h3>
-                    <p class="feedback-para">Got it on time, works perfectly. Highly recommend!</p>
-                <div class="img-name">
-                    <div>
-                    <img class="image" src="Assets/avatar.png" alt="">
-                </div>
-                <div class="name-date">
-                    <p class="review-name">Ria</p>
-                    <p class="date">Date:26/06/2025</p>
-                </div>
-                </div>
-                </div>
-                </div>
-            </section>
+        <article class="testimonial-card">
 
-            <!-- Touch section -->
-             <section class="touch-section">
-                <div class="touch-container">
-                    <div>
-                    <h2 class="touch-title">Let’s Get in <br> Touch</h2>
-                </div>
-                <div class="touch-input-btn">
-                    <div class="touch-input">
-                        <div>
-                    <label class="email" for="email">Email <br></label>
-        <input class="touch-email" type="email" placeholder="example@gmail.com" name="" id="">
-                </div>
-                <div>
-                    <label class="name" for="name">Name <br></label>
-        <input class="touch-name" type="text" placeholder="full name" name="" id="">
-                </div>
-                <div>
-                    <label class="message" for="">Message<br></label>
-        <textarea cols="35" rows="4" class="touch-message" name="" placeholder="write your message..." id=""></textarea>
-                </div>
-                    </div>
-                <button class="btn-touch">Get in Touch</button>
-                </div>
-                </div>
-             </section>
-    </main>
-    
-    <!-- Footer section -->
-    <footer class="footer">
-        <h1 class="footer-title">LOGO</h1>
-        <p class="footer-para">Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</p>
-        <div class="footer-anchor">
-            <div class="footer-link">
-            <li class="home"><a href="">Home</a></li>
-            <li class="about"><a href="">About</a></li>
-            <li class="how"><a href="">How it Works</a></li>
-            <li class="service"><a href="">Services</a></li>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <h3>
+            Highly Functional
+          </h3>
+
+          <p>
+            Very useful and easy to use.
+            Totally satisfied with the experience.
+          </p>
+
+          <div class="reviewer">
+
+            <img
+              src="Assets/avatar.png"
+              alt="Jui profile"
+              class="reviewer-image"
+            />
+
+            <div>
+              <h4>Jui</h4>
+              <span>02 May 2025</span>
             </div>
+
+          </div>
+
+        </article>
+
+        <!-- Testimonial Card -->
+
+        <article class="testimonial-card">
+
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <h3>
+            Highly Recommended
+          </h3>
+
+          <p>
+            Delivered on time and works perfectly.
+            Strongly recommended.
+          </p>
+
+          <div class="reviewer">
+
+            <img
+              src="Assets/avatar.png"
+              alt="Ria profile"
+              class="reviewer-image"
+            />
+
+            <div>
+              <h4>Ria</h4>
+              <span>26 June 2025</span>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact-section">
+
+      <div class="container contact-container">
+
+        <div>
+
+          <h2 class="contact-title">
+            Let’s Get in Touch
+          </h2>
+
         </div>
-    </footer>
+
+        <!-- Form -->
+
+        <form class="contact-form">
+
+          <div class="form-group">
+
+            <label for="email">
+              Email
+            </label>
+
+            <input
+              type="email"
+              id="email"
+              placeholder="example@gmail.com"
+              required
+            />
+
+          </div>
+
+          <div class="form-group">
+
+            <label for="name">
+              Name
+            </label>
+
+            <input
+              type="text"
+              id="name"
+              placeholder="Full Name"
+              required
+            />
+
+          </div>
+
+          <div class="form-group">
+
+            <label for="message">
+              Message
+            </label>
+
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-primary"
+          >
+            Get in Touch
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="container footer-container">
+
+      <div class="footer-content">
+
+        <h2 class="footer-logo">
+          LOGO
+        </h2>
+
+        <p class="footer-description">
+          Ready to elevate your online presence?
+          Contact us today and discover how we can
+          bring your vision to life.
+        </p>
+
+      </div>
+
+      <!-- Footer Links -->
+
+      <ul class="footer-links">
+
+        <li>
+          <a href="#">
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            About
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            Services
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            How It Works
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </footer>
+
 </body>
 </html>
